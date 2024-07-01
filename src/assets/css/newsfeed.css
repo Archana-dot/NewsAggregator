@@ -1,0 +1,90 @@
+.news-base {
+    display: flex;
+    padding: 0 20px;
+    position: relative;
+    height: calc(100% - 70px);
+    overflow-y: hidden;
+}
+
+.newsfeed-container{
+    padding: 0 20px 0 40px;
+    display: flex;
+    width: 100%;
+    position: relative;
+    overflow-y: scroll;
+
+}
+
+.newsfeed-container .news-feed {
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.newsfeed-container .content-img-section{
+    display: flex;
+}
+.newsfeed-container .img-section{
+    width: 30%;
+    height: 207px;
+}
+
+.newsfeed-container .separator-line {
+    border: 0.5px solid #3f3f3f;
+    margin-top: 36px;
+    width: 94%;
+    opacity: 0.3;
+}
+.newsfeed-container .img-section img{
+    height: 100%;
+    width: 100%;
+}
+.newsfeed-container .news-feed .title,
+.newsfeed-container .news-feed .content, 
+.newsfeed-container .img-section{
+    width: 94%;
+}
+
+.newsfeed-container .article-block.first{
+    width: 70%;
+}
+
+.newsfeed-container .article-block.first .error-row {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsfeed-container .article-block.first .error-row.screen-center {
+    justify-content: right;
+    margin-right: 20%;
+}
+
+.newsfeed-container .article-block.second{
+    width: 30%;
+}
+
+.newsfeed-container .news-feed .title {
+    font-family: "FuturaPT-Heavy";
+    font-weight: 600;
+    font-size: 24px;
+    
+}
+.newsfeed-container .img-content-div{
+    display: flex;
+    height: 200px;
+    overflow: hidden;
+}
+.newsfeed-container .news-feed .content {
+    font-family: "FuturaPT-Medium";
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 25px;
+    padding-left: 10px;
+    /* width: 50%;
+    margin-left: 30px; */
+}
+.newsfeed-container .news-feed .date {
+    font-family: "FuturaPT-Medium";
+    font-weight: 450;
+    font-size: 18px;
+}

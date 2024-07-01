@@ -1,0 +1,108 @@
+.language-selector {
+    display: flex;
+    align-items: flex-start;
+    height: 70px;
+  }
+  .language-selector .navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* position: fixed; */
+    align-items: center;
+    height: 65px;
+    background-color: brown;
+  }
+  .language-selector .navbar .logo-container{
+    height: 56px;
+    width: 50px;
+    padding-left: 20px;
+    display: flex;
+  }
+  .language-selector .navbar .logo-container .app-header{
+    color: aliceblue;
+    font-weight: 800;
+    font-size: 32px;
+    padding: 5px 0 0 38px;
+    white-space: nowrap;
+  }
+  .language-selector .navbar .logo-container img{
+    height: 100%;
+    width: 100%;
+  }
+  .language-selector .navbar .nav-right{
+    display: flex;
+    position: relative;
+  }
+  .language-selector .user-input{
+    display: flex;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  .language-selector .langselect-container {
+    margin: 20px;
+  }
+  
+  .language-selector .user-input img{
+    height: 40%;
+    position: absolute;
+    top: 30px;
+    left: 9px;
+  }
+
+  .language-selector .user-input input{
+    border-radius: 42px;
+    border: 1px solid grey;
+    width: 224px;
+    height: 40%;
+    padding-left: 57px;
+  }
+
+  .language-selector .user-input img{
+    border: none;
+
+  }
+
+  .language-selector .sele-prefferd-lang{
+    width: 60px;
+    height: 40px;
+    border: none;
+    padding: 13px;
+    background-color: brown;
+  }
+  
+  .language-options {
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    /* transform: translate(0px, 0px); */
+    height: 260px !important;
+    position: absolute;
+    top: 79px;
+    right: 0px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 5px;
+    z-index: 9;
+    /* overflow: hidden; */
+    /* transition: transform 0.3s ease-in-out 0s, height 0.3s ease-in-out 0s; */
+    border-radius: 4px;
+    background: #fff;
+    justify-content: center;
+  }
+
+  .language-options button {
+    margin: 5px; /* Adjust margin between buttons */
+    padding: 10px;
+    border-radius: 35px;
+    background-color: brown;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    height: 51px;
+    width: 146px;
+  }
+  
